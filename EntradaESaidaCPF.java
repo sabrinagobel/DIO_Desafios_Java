@@ -20,3 +20,4 @@ public class EntradaESaidaCPF {
 // Elabore um programa que possua as características abaixo:
 // Leia os dados de um CPF no formato XXX.YYY.ZZZ-DD;
 // Imprima os quatro grupos numéricos, sendo um valor por linha.
+//
