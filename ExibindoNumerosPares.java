@@ -1,8 +1,4 @@
 import java.io.IOException;
-<<<<<<< HEAD
-=======
-import java.io.InputStream;
->>>>>>> 337c007b6116ec51278a154f06d4928fc20a175a
 import java.util.Scanner;
 
 public class ExibindoNumerosPares {
