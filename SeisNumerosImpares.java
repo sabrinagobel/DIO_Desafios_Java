@@ -11,7 +11,7 @@ public class SeisNumerosImpares {
             if ( x % 2  == 1)
                 x=x;
             else x=x+1;
-            System.out.println(    x  );
+            System.out.println(x);
             cont ++  ;
             x++;
         }
