@@ -23,6 +23,7 @@ public class AnaliseDeNumeros {
         System.out.println(impares + " valor(es) impar(es)");
         System.out.println(positivos + " valor(es) positivo(s)");
         System.out.println(negativos + " valor(es) negativo(s)");
+        leitor.close();
     }
 }
 

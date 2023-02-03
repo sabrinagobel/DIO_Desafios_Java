@@ -7,6 +7,7 @@ import java.util.Scanner;
             Scanner leitor = new Scanner(System.in);
             while (leitor.hasNext()) {
                 String[] relogio = leitor.nextLine().split(":");
+                leitor.close();
                 int hora = Integer.parseInt(relogio[0]);
                 int min = Integer.parseInt(relogio[1]);
                 switch (hora) {

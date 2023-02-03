@@ -6,6 +6,7 @@ public class TempoDeJogo {
         int inicio, fim, horas;
         inicio = scan.nextInt();
         fim = scan.nextInt();
+        scan.close();
         horas = fim - inicio;
 
         if (horas == 0) {

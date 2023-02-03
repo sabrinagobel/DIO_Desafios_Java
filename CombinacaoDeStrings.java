@@ -11,7 +11,7 @@ public class CombinacaoDeStrings {
             String combinacao = new String();
             String a = leitor.next();
             String b = leitor.next();
-
+            leitor.close();
             int ta = a.length();
             int tb = b.length();
             int menor = 0;

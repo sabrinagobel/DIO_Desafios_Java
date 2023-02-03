@@ -9,6 +9,7 @@ public class FibonacciEmVetor {
         for (int i = 0; i < T; i++) {
 
             int N = leitor.nextInt();
+            leitor.close();
             long[] vetor = new long[N + 1];
             vetor[0] = 0;
 

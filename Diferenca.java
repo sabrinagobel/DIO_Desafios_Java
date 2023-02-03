@@ -9,6 +9,7 @@ public class Diferenca {
         int b = leitor.nextInt();
         int c = leitor.nextInt();
         int d = leitor.nextInt();
+        leitor.close();
         int x = a*b - c*d;
         System.out.println("DIFERENCA = "+ x);
     }

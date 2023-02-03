@@ -13,8 +13,7 @@ public class AreaDireita {
                 M[i][j] = leitor.nextDouble();
             }
         }
-
-
+        leitor.close();
         int inicioHorizontal = 11;
         int posicaoHorizontal = 11;
         int posicaoVertical = 1;

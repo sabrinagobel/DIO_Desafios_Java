@@ -12,6 +12,7 @@ import java.util.Scanner;
                 if (graus >= 180 && graus < 270) System.out.println("Boa Noite!!");
                 if (graus >= 90 && graus < 180) System.out.println("Boa Tarde!!");
             }
+            leitor.close();
         }
     }
 

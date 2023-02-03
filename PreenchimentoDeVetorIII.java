@@ -8,6 +8,7 @@ public class PreenchimentoDeVetorIII {
     public static void main(String[] args) throws IOException {
         Scanner leitor = new Scanner(System.in);
         double X = leitor.nextDouble();
+        leitor.close();
         BigDecimal[] N = new BigDecimal[100];
         N[0] = new BigDecimal(X);
         for (int i = 1; i < 100; i++) {

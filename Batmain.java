@@ -5,13 +5,13 @@ public class Batmain {
         Scanner scan = new Scanner(System.in);
 
         int t = scan.nextInt();
-
         int count = 0;
         while(count < t) {
-            String vilao = scan.next();
+ //           String vilao = scan.next();        
             System.out.println("Y");
             count++;
         }
+        scan.close();
     }
 }
 

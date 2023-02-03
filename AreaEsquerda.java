@@ -13,8 +13,7 @@ public class AreaEsquerda {
                 M[i][j] = leitor.nextDouble();
             }
         }
-
-
+        leitor.close();
         int posicaoHorizontal = 0;
         int limiteHorizontal = 0;
         int posicaoVertical = 1;

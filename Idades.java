@@ -14,7 +14,7 @@ public class Idades {
             cont ++;
             n = leitor.nextInt();
         }
-
+        leitor.close();
         double media = ((double) soma / cont);
         System.out.println(String.format("%.2f", media));
     }

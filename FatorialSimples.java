@@ -5,6 +5,7 @@ public class FatorialSimples {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
+        scanner.close();
         for (int i = N; i > 1; i--) {
             N = N * (i - 1);
         }

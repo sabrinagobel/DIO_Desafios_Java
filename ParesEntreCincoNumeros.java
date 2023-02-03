@@ -11,6 +11,7 @@ public class ParesEntreCincoNumeros {
             if (n%2 == 0) count++;
         }
         System.out.printf("%d valores pares\n", count);
+        scan.close();
     }
 }
 

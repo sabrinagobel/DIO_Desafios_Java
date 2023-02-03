@@ -16,6 +16,7 @@ public class ARespostaDeTheon {
             else if (menor == 20) posMenor = 1;
         }
         System.out.println(posMenor);
+        leitor.close();
     }
 }
 

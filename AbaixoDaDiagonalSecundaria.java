@@ -24,6 +24,7 @@ public class AbaixoDaDiagonalSecundaria {
 
         if (O == 'M') soma  = (soma/(((M.length * M.length) - 12) / 2));
         System.out.println(String.format("%.1f", soma));
+        leitor.close();
     }
 
 }

@@ -9,6 +9,7 @@ public class ContagemDeCedulas {
 
         //continue a solucao de acordo com as notas do enunciado
         int valorSaque = leitor.nextInt();
+        leitor.close();
         int atual = valorSaque;
         int notas100 = atual / 100;
         atual -= notas100 * 100;

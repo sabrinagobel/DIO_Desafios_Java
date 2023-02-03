@@ -7,6 +7,7 @@ public class Multiplos {
         Scanner leitor = new Scanner(System.in);
         int a = leitor.nextInt();
         int b = leitor.nextInt();
+        leitor.close();
         if (a % b == 0) System.out.println("Sao Multiplos");
         else if (b % a == 0) System.out.println("Sao Multiplos");
         else {

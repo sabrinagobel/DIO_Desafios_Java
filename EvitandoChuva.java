@@ -13,6 +13,7 @@ public class EvitandoChuva {
         for (int i = 0; i < N; i++) {
             String SD = leitor.next();
             String SN = leitor.next();
+            leitor.close();
             if (SD.equals("chuva") && casaSobrando > 0) {
                 casaSobrando--;
                 trabSobrando++;

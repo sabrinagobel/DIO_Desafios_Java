@@ -10,6 +10,7 @@ public class EncaixaOuNao {
         for (int i = 0; i < n; i++) {
             String a = leitor.next();
             String b = leitor.next();
+            leitor.close();
                 if (a.endsWith(b))
                 System.out.println("encaixa\n");
             else

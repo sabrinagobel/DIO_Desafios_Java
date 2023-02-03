@@ -12,6 +12,7 @@ public class QuantidadeDeNumerosPositivos {
             if ( x > 0) quant++;
             cont++;
         }
+        leitor.close();
         System.out.println(quant + " valores positivos");
     }
 }

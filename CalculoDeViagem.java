@@ -6,7 +6,7 @@ public class CalculoDeViagem {
         Scanner scan = new Scanner(System.in);
         int tempo = scan.nextInt();
         int velocidade = scan.nextInt();
-
+        scan.close();
         System.out.printf("%.3f\n", ( tempo * velocidade )/12.0);
     }
 }

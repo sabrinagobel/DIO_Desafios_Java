@@ -10,6 +10,7 @@ public class ConversaoDeTempo {
         int min = sec/60;
         sec = sec - (min * 60);
         System.out.println(hour + ":" + min + ":" + sec);
+        input.close();
     }
 }
 

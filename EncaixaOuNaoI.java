@@ -10,6 +10,7 @@ public class EncaixaOuNaoI {
         for (int i = 0; i < count; i++) {
             String a = scan.next();
             String b = scan.next();
+            scan.close();
             if (a.endsWith(b))
                 System.out.println("encaixa");
             else System.out.println("nao encaixa");
